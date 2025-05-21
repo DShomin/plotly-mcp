@@ -1,0 +1,2016 @@
+[
+    {
+        "type": "bar",
+        "data": {
+            "type": "bar",
+            "x": [
+                1,
+                2,
+                3,
+                4
+            ],
+            "y": [
+                5,
+                3,
+                7,
+                2
+            ]
+        },
+        "layout": {
+            "title": {
+                "text": "바 차트 예제"
+            }
+        }
+    },
+    {
+        "type": "barpolar",
+        "data": {
+            "type": "barpolar",
+            "theta": [
+                0,
+                45,
+                90,
+                135,
+                180,
+                225,
+                270,
+                315
+            ],
+            "r": [
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9
+            ]
+        },
+        "layout": {
+            "title": {
+                "text": "바폴라 차트 예제"
+            }
+        }
+    },
+    {
+        "type": "box",
+        "data": {
+            "type": "box",
+            "y": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9
+            ],
+            "name": "데이터 분포"
+        },
+        "layout": {
+            "title": {
+                "text": "박스 플롯 예제"
+            }
+        }
+    },
+    {
+        "type": "candlestick",
+        "data": {
+            "type": "candlestick",
+            "x": [
+                "2023-01-01",
+                "2023-01-02",
+                "2023-01-03",
+                "2023-01-04"
+            ],
+            "open": [
+                10,
+                11,
+                9,
+                13
+            ],
+            "high": [
+                12,
+                13,
+                11,
+                14
+            ],
+            "low": [
+                9,
+                10,
+                8,
+                11
+            ],
+            "close": [
+                11,
+                9,
+                10,
+                12
+            ]
+        },
+        "layout": {
+            "title": {
+                "text": "캔들스틱 차트 예제"
+            }
+        }
+    },
+    {
+        "type": "carpet",
+        "data": [
+            {
+                "type": "carpet",
+                "a": [
+                    4,
+                    4,
+                    4,
+                    4.5,
+                    4.5,
+                    4.5,
+                    5,
+                    5,
+                    5
+                ],
+                "b": [
+                    1,
+                    2,
+                    3,
+                    1,
+                    2,
+                    3,
+                    1,
+                    2,
+                    3
+                ],
+                "y": [
+                    2,
+                    3.5,
+                    4,
+                    3,
+                    4.5,
+                    5,
+                    5.5,
+                    6.5,
+                    7.5
+                ],
+                "aaxis": {
+                    "title": "A축",
+                    "tickprefix": "a=",
+                    "smoothing": 1
+                },
+                "baxis": {
+                    "title": "B축",
+                    "tickprefix": "b=",
+                    "smoothing": 1
+                }
+            }
+        ],
+        "layout": {
+            "title": {
+                "text": "카펫 차트 예제"
+            }
+        }
+    },
+    {
+        "type": "choropleth",
+        "data": {
+            "type": "choropleth",
+            "locations": [
+                "KOR",
+                "USA",
+                "JPN",
+                "CHN",
+                "GBR",
+                "DEU",
+                "FRA"
+            ],
+            "z": [
+                10,
+                20,
+                30,
+                40,
+                50,
+                60,
+                70
+            ],
+            "colorscale": "Viridis"
+        },
+        "layout": {
+            "title": {
+                "text": "코로플레스 차트 예제"
+            }
+        }
+    },
+    {
+        "type": "choroplethmap",
+        "data": {
+            "type": "choroplethmap",
+            "locations": [
+                "KOR",
+                "USA",
+                "JPN",
+                "CHN",
+                "GBR",
+                "DEU",
+                "FRA"
+            ],
+            "z": [
+                10,
+                20,
+                30,
+                40,
+                50,
+                60,
+                70
+            ],
+            "colorscale": "Viridis"
+        },
+        "layout": {
+            "title": {
+                "text": "코로플레스맵 차트 예제"
+            }
+        }
+    },
+    {
+        "type": "choroplethmapbox",
+        "data": {
+            "type": "choroplethmapbox",
+            "locations": [
+                "NY",
+                "MA",
+                "VT",
+                "ME",
+                "CT",
+                "RI",
+                "NH"
+            ],
+            "z": [
+                10,
+                20,
+                30,
+                40,
+                50,
+                60,
+                70
+            ],
+            "geojson": "https://raw.githubusercontent.com/python-visualization/folium/master/examples/data/us-states.json"
+        },
+        "layout": {
+            "mapbox": {
+                "style": "carto-positron"
+            },
+            "title": {
+                "text": "코로플레스맵박스 차트 예제"
+            }
+        }
+    },
+    {
+        "type": "cone",
+        "data": {
+            "type": "cone",
+            "x": [
+                1,
+                2,
+                3
+            ],
+            "y": [
+                1,
+                2,
+                3
+            ],
+            "z": [
+                1,
+                1,
+                1
+            ],
+            "u": [
+                1,
+                2,
+                3
+            ],
+            "v": [
+                1,
+                1,
+                1
+            ],
+            "w": [
+                1,
+                2,
+                1
+            ]
+        },
+        "layout": {
+            "title": {
+                "text": "콘 차트 예제"
+            }
+        }
+    },
+    {
+        "type": "contour",
+        "data": {
+            "type": "contour",
+            "z": [
+                [
+                    1,
+                    2,
+                    3,
+                    4
+                ],
+                [
+                    5,
+                    6,
+                    7,
+                    8
+                ],
+                [
+                    9,
+                    10,
+                    11,
+                    12
+                ],
+                [
+                    13,
+                    14,
+                    15,
+                    16
+                ]
+            ],
+            "colorscale": "Jet"
+        },
+        "layout": {
+            "title": {
+                "text": "등고선 차트 예제"
+            }
+        }
+    },
+    {
+        "type": "contourcarpet",
+        "data": [
+            {
+                "type": "carpet",
+                "a": [
+                    4,
+                    4,
+                    4,
+                    4.5,
+                    4.5,
+                    4.5,
+                    5,
+                    5,
+                    5
+                ],
+                "b": [
+                    1,
+                    2,
+                    3,
+                    1,
+                    2,
+                    3,
+                    1,
+                    2,
+                    3
+                ],
+                "y": [
+                    2,
+                    3.5,
+                    4,
+                    3,
+                    4.5,
+                    5,
+                    5.5,
+                    6.5,
+                    7.5
+                ],
+                "aaxis": {
+                    "title": "A축"
+                },
+                "baxis": {
+                    "title": "B축"
+                }
+            },
+            {
+                "type": "contourcarpet",
+                "a": [
+                    4,
+                    4,
+                    4,
+                    4.5,
+                    4.5,
+                    4.5,
+                    5,
+                    5,
+                    5
+                ],
+                "b": [
+                    1,
+                    2,
+                    3,
+                    1,
+                    2,
+                    3,
+                    1,
+                    2,
+                    3
+                ],
+                "z": [
+                    2,
+                    3.5,
+                    4,
+                    3,
+                    4.5,
+                    5,
+                    5.5,
+                    6.5,
+                    7.5
+                ],
+                "colorscale": "Viridis"
+            }
+        ],
+        "layout": {
+            "title": {
+                "text": "컨투어 카펫 차트 예제"
+            }
+        }
+    },
+    {
+        "type": "densitymap",
+        "data": {
+            "type": "densitymap",
+            "lon": [
+                126.9,
+                127.0,
+                127.1,
+                127.2,
+                127.3
+            ],
+            "lat": [
+                37.5,
+                37.6,
+                37.7,
+                37.8,
+                37.9
+            ],
+            "z": [
+                10,
+                20,
+                15,
+                25,
+                30
+            ],
+            "colorscale": "Viridis"
+        },
+        "layout": {
+            "title": {
+                "text": "밀도 맵 예제"
+            }
+        }
+    },
+    {
+        "type": "densitymapbox",
+        "data": {
+            "type": "densitymapbox",
+            "lon": [
+                126.9,
+                127.0,
+                127.1,
+                127.2,
+                127.3
+            ],
+            "lat": [
+                37.5,
+                37.6,
+                37.7,
+                37.8,
+                37.9
+            ],
+            "z": [
+                10,
+                20,
+                15,
+                25,
+                30
+            ],
+            "colorscale": "Viridis"
+        },
+        "layout": {
+            "mapbox": {
+                "style": "carto-positron"
+            },
+            "title": {
+                "text": "밀도 맵박스 예제"
+            }
+        }
+    },
+    {
+        "type": "funnel",
+        "data": {
+            "type": "funnel",
+            "y": [
+                "방문",
+                "장바구니",
+                "구매시작",
+                "결제",
+                "완료"
+            ],
+            "x": [
+                500,
+                350,
+                200,
+                150,
+                100
+            ]
+        },
+        "layout": {
+            "title": {
+                "text": "퍼널 차트 예제"
+            }
+        }
+    },
+    {
+        "type": "funnelarea",
+        "data": {
+            "type": "funnelarea",
+            "values": [
+                500,
+                350,
+                200,
+                150,
+                100
+            ],
+            "text": [
+                "방문",
+                "장바구니",
+                "구매시작",
+                "결제",
+                "완료"
+            ]
+        },
+        "layout": {
+            "title": {
+                "text": "퍼널 영역 차트 예제"
+            }
+        }
+    },
+    {
+        "type": "heatmap",
+        "data": {
+            "type": "heatmap",
+            "z": [
+                [
+                    1,
+                    2,
+                    3,
+                    4
+                ],
+                [
+                    5,
+                    6,
+                    7,
+                    8
+                ],
+                [
+                    9,
+                    10,
+                    11,
+                    12
+                ],
+                [
+                    13,
+                    14,
+                    15,
+                    16
+                ]
+            ],
+            "colorscale": "Viridis"
+        },
+        "layout": {
+            "title": {
+                "text": "히트맵 예제"
+            }
+        }
+    },
+    {
+        "type": "histogram",
+        "data": {
+            "type": "histogram",
+            "x": [
+                1,
+                2,
+                2,
+                3,
+                3,
+                3,
+                4,
+                4,
+                4,
+                4,
+                5,
+                5,
+                5,
+                5,
+                5
+            ]
+        },
+        "layout": {
+            "title": {
+                "text": "히스토그램 예제"
+            }
+        }
+    },
+    {
+        "type": "histogram2d",
+        "data": {
+            "type": "histogram2d",
+            "x": [
+                1,
+                2,
+                2,
+                3,
+                3,
+                3,
+                4,
+                4,
+                4,
+                4,
+                5,
+                5,
+                5,
+                5,
+                5
+            ],
+            "y": [
+                5,
+                5,
+                5,
+                5,
+                5,
+                4,
+                4,
+                4,
+                4,
+                3,
+                3,
+                3,
+                2,
+                2,
+                1
+            ],
+            "colorscale": "Viridis"
+        },
+        "layout": {
+            "title": {
+                "text": "2D 히스토그램 예제"
+            }
+        }
+    },
+    {
+        "type": "histogram2dcontour",
+        "data": {
+            "type": "histogram2dcontour",
+            "x": [
+                1,
+                2,
+                2,
+                3,
+                3,
+                3,
+                4,
+                4,
+                4,
+                4,
+                5,
+                5,
+                5,
+                5,
+                5
+            ],
+            "y": [
+                5,
+                5,
+                5,
+                5,
+                5,
+                4,
+                4,
+                4,
+                4,
+                3,
+                3,
+                3,
+                2,
+                2,
+                1
+            ],
+            "colorscale": "Viridis"
+        },
+        "layout": {
+            "title": {
+                "text": "2D 히스토그램 등고선 예제"
+            }
+        }
+    },
+    {
+        "type": "icicle",
+        "data": {
+            "type": "icicle",
+            "ids": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G",
+                "H",
+                "I"
+            ],
+            "labels": [
+                "Root",
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G",
+                "H"
+            ],
+            "parents": [
+                "",
+                "Root",
+                "Root",
+                "Root",
+                "A",
+                "A",
+                "C",
+                "C",
+                "C"
+            ],
+            "values": [
+                10,
+                14,
+                12,
+                10,
+                2,
+                6,
+                6,
+                1,
+                4
+            ]
+        },
+        "layout": {
+            "title": {
+                "text": "아이시클 차트 예제"
+            }
+        }
+    },
+    {
+        "type": "image",
+        "data": {
+            "type": "image",
+            "z": [
+                [
+                    1,
+                    2,
+                    3,
+                    4
+                ],
+                [
+                    5,
+                    6,
+                    7,
+                    8
+                ],
+                [
+                    9,
+                    10,
+                    11,
+                    12
+                ],
+                [
+                    13,
+                    14,
+                    15,
+                    16
+                ]
+            ],
+            "colorscale": "Viridis"
+        },
+        "layout": {
+            "title": {
+                "text": "이미지 차트 예제"
+            }
+        }
+    },
+    {
+        "type": "indicator",
+        "data": {
+            "type": "indicator",
+            "mode": "gauge+number",
+            "value": 420,
+            "title": {
+                "text": "속도"
+            },
+            "gauge": {
+                "axis": {
+                    "range": [
+                        0,
+                        600
+                    ]
+                },
+                "bar": {
+                    "color": "darkblue"
+                },
+                "steps": [
+                    {
+                        "range": [
+                            0,
+                            200
+                        ],
+                        "color": "lightgray"
+                    },
+                    {
+                        "range": [
+                            200,
+                            400
+                        ],
+                        "color": "gray"
+                    }
+                ]
+            }
+        },
+        "layout": {
+            "title": {
+                "text": "인디케이터 차트 예제"
+            }
+        }
+    },
+    {
+        "type": "isosurface",
+        "data": {
+            "type": "isosurface",
+            "x": [
+                0,
+                0,
+                0,
+                0,
+                1,
+                1,
+                1,
+                1
+            ],
+            "y": [
+                0,
+                0,
+                1,
+                1,
+                0,
+                0,
+                1,
+                1
+            ],
+            "z": [
+                0,
+                1,
+                0,
+                1,
+                0,
+                1,
+                0,
+                1
+            ],
+            "value": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8
+            ],
+            "isomin": 2,
+            "isomax": 6,
+            "colorscale": "Viridis"
+        },
+        "layout": {
+            "title": {
+                "text": "아이소서피스 차트 예제"
+            }
+        }
+    },
+    {
+        "type": "mesh3d",
+        "data": {
+            "type": "mesh3d",
+            "x": [
+                0,
+                1,
+                2,
+                0
+            ],
+            "y": [
+                0,
+                0,
+                1,
+                2
+            ],
+            "z": [
+                0,
+                2,
+                0,
+                1
+            ],
+            "i": [
+                0,
+                0,
+                0
+            ],
+            "j": [
+                1,
+                2,
+                3
+            ],
+            "k": [
+                2,
+                3,
+                1
+            ],
+            "colorscale": "Viridis"
+        },
+        "layout": {
+            "title": {
+                "text": "3D 메쉬 차트 예제"
+            }
+        }
+    },
+    {
+        "type": "ohlc",
+        "data": {
+            "type": "ohlc",
+            "x": [
+                "2023-01-01",
+                "2023-01-02",
+                "2023-01-03",
+                "2023-01-04"
+            ],
+            "open": [
+                10,
+                11,
+                9,
+                13
+            ],
+            "high": [
+                12,
+                13,
+                11,
+                14
+            ],
+            "low": [
+                9,
+                10,
+                8,
+                11
+            ],
+            "close": [
+                11,
+                9,
+                10,
+                12
+            ]
+        },
+        "layout": {
+            "title": {
+                "text": "OHLC 차트 예제"
+            }
+        }
+    },
+    {
+        "type": "parcats",
+        "data": {
+            "type": "parcats",
+            "dimensions": [
+                {
+                    "label": "성별",
+                    "values": [
+                        "남성",
+                        "남성",
+                        "여성",
+                        "여성"
+                    ]
+                },
+                {
+                    "label": "연령대",
+                    "values": [
+                        "20대",
+                        "30대",
+                        "20대",
+                        "30대"
+                    ]
+                },
+                {
+                    "label": "직업",
+                    "values": [
+                        "학생",
+                        "직장인",
+                        "학생",
+                        "직장인"
+                    ]
+                }
+            ],
+            "counts": [
+                5,
+                10,
+                8,
+                12
+            ]
+        },
+        "layout": {
+            "title": {
+                "text": "병렬 카테고리 차트 예제"
+            }
+        }
+    },
+    {
+        "type": "parcoords",
+        "data": {
+            "type": "parcoords",
+            "line": {
+                "color": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                ],
+                "colorscale": "Jet"
+            },
+            "dimensions": [
+                {
+                    "label": "A",
+                    "values": [
+                        1,
+                        4,
+                        2,
+                        3,
+                        5
+                    ]
+                },
+                {
+                    "label": "B",
+                    "values": [
+                        3,
+                        1,
+                        5,
+                        2,
+                        4
+                    ]
+                },
+                {
+                    "label": "C",
+                    "values": [
+                        2,
+                        5,
+                        1,
+                        4,
+                        3
+                    ]
+                },
+                {
+                    "label": "D",
+                    "values": [
+                        5,
+                        3,
+                        4,
+                        1,
+                        2
+                    ]
+                }
+            ]
+        },
+        "layout": {
+            "title": {
+                "text": "병렬 좌표 차트 예제"
+            }
+        }
+    },
+    {
+        "type": "pie",
+        "data": {
+            "type": "pie",
+            "labels": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E"
+            ],
+            "values": [
+                10,
+                20,
+                30,
+                25,
+                15
+            ]
+        },
+        "layout": {
+            "title": {
+                "text": "파이 차트 예제"
+            }
+        }
+    },
+    {
+        "type": "sankey",
+        "data": {
+            "type": "sankey",
+            "node": {
+                "label": [
+                    "A",
+                    "B",
+                    "C",
+                    "D",
+                    "E",
+                    "F"
+                ],
+                "color": [
+                    "blue",
+                    "blue",
+                    "blue",
+                    "green",
+                    "green",
+                    "green"
+                ]
+            },
+            "link": {
+                "source": [
+                    0,
+                    0,
+                    1,
+                    2,
+                    3,
+                    3
+                ],
+                "target": [
+                    3,
+                    4,
+                    4,
+                    5,
+                    4,
+                    5
+                ],
+                "value": [
+                    10,
+                    5,
+                    3,
+                    7,
+                    4,
+                    2
+                ]
+            }
+        },
+        "layout": {
+            "title": {
+                "text": "생키 다이어그램 예제"
+            }
+        }
+    },
+    {
+        "type": "scatter",
+        "data": {
+            "type": "scatter",
+            "x": [
+                1,
+                2,
+                3,
+                4,
+                5
+            ],
+            "y": [
+                2,
+                3,
+                5,
+                8,
+                11
+            ],
+            "mode": "markers",
+            "marker": {
+                "size": 12,
+                "color": "blue"
+            }
+        },
+        "layout": {
+            "title": {
+                "text": "산점도 예제"
+            }
+        }
+    },
+    {
+        "type": "scatter3d",
+        "data": {
+            "type": "scatter3d",
+            "x": [
+                1,
+                2,
+                3,
+                4,
+                5
+            ],
+            "y": [
+                2,
+                3,
+                5,
+                8,
+                11
+            ],
+            "z": [
+                10,
+                12,
+                8,
+                15,
+                20
+            ],
+            "mode": "markers",
+            "marker": {
+                "size": 8,
+                "color": "blue"
+            }
+        },
+        "layout": {
+            "title": {
+                "text": "3D 산점도 예제"
+            }
+        }
+    },
+    {
+        "type": "scattercarpet",
+        "data": [
+            {
+                "type": "carpet",
+                "a": [
+                    4,
+                    4,
+                    4,
+                    4.5,
+                    4.5,
+                    4.5,
+                    5,
+                    5,
+                    5
+                ],
+                "b": [
+                    1,
+                    2,
+                    3,
+                    1,
+                    2,
+                    3,
+                    1,
+                    2,
+                    3
+                ],
+                "y": [
+                    2,
+                    3.5,
+                    4,
+                    3,
+                    4.5,
+                    5,
+                    5.5,
+                    6.5,
+                    7.5
+                ],
+                "aaxis": {
+                    "title": "A축"
+                },
+                "baxis": {
+                    "title": "B축"
+                }
+            },
+            {
+                "type": "scattercarpet",
+                "a": [
+                    4,
+                    4.5,
+                    5
+                ],
+                "b": [
+                    2,
+                    2,
+                    2
+                ],
+                "mode": "markers",
+                "marker": {
+                    "size": 10,
+                    "color": "red"
+                }
+            }
+        ],
+        "layout": {
+            "title": {
+                "text": "스캐터 카펫 차트 예제"
+            }
+        }
+    },
+    {
+        "type": "scattergeo",
+        "data": {
+            "type": "scattergeo",
+            "lon": [
+                126.9,
+                127.7,
+                129.0,
+                126.5,
+                127.1
+            ],
+            "lat": [
+                37.5,
+                37.8,
+                35.1,
+                33.5,
+                36.3
+            ],
+            "text": [
+                "서울",
+                "춘천",
+                "부산",
+                "제주",
+                "대전"
+            ],
+            "mode": "markers",
+            "marker": {
+                "size": 10,
+                "color": "red"
+            }
+        },
+        "layout": {
+            "title": {
+                "text": "스캐터 지오 차트 예제"
+            }
+        }
+    },
+    {
+        "type": "scattergl",
+        "data": {
+            "type": "scattergl",
+            "x": [
+                1,
+                2,
+                3,
+                4,
+                5
+            ],
+            "y": [
+                2,
+                3,
+                5,
+                8,
+                11
+            ],
+            "mode": "markers",
+            "marker": {
+                "size": 10,
+                "color": "blue"
+            }
+        },
+        "layout": {
+            "title": {
+                "text": "스캐터GL 차트 예제"
+            }
+        }
+    },
+    {
+        "type": "scattermap",
+        "data": {
+            "type": "scattermap",
+            "lon": [
+                126.9,
+                127.7,
+                129.0,
+                126.5,
+                127.1
+            ],
+            "lat": [
+                37.5,
+                37.8,
+                35.1,
+                33.5,
+                36.3
+            ],
+            "text": [
+                "서울",
+                "춘천",
+                "부산",
+                "제주",
+                "대전"
+            ],
+            "mode": "markers"
+        },
+        "layout": {
+            "title": {
+                "text": "스캐터맵 차트 예제"
+            }
+        }
+    },
+    {
+        "type": "scattermapbox",
+        "data": {
+            "type": "scattermapbox",
+            "lon": [
+                126.9,
+                127.7,
+                129.0,
+                126.5,
+                127.1
+            ],
+            "lat": [
+                37.5,
+                37.8,
+                35.1,
+                33.5,
+                36.3
+            ],
+            "text": [
+                "서울",
+                "춘천",
+                "부산",
+                "제주",
+                "대전"
+            ],
+            "mode": "markers",
+            "marker": {
+                "size": 10,
+                "color": "red"
+            }
+        },
+        "layout": {
+            "mapbox": {
+                "style": "carto-positron"
+            },
+            "title": {
+                "text": "스캐터맵박스 차트 예제"
+            }
+        }
+    },
+    {
+        "type": "scatterpolar",
+        "data": {
+            "type": "scatterpolar",
+            "r": [
+                2,
+                3,
+                4,
+                5,
+                2
+            ],
+            "theta": [
+                0,
+                72,
+                144,
+                216,
+                288
+            ],
+            "mode": "markers+lines",
+            "marker": {
+                "size": 10,
+                "color": "blue"
+            }
+        },
+        "layout": {
+            "title": {
+                "text": "스캐터폴라 차트 예제"
+            }
+        }
+    },
+    {
+        "type": "scatterpolargl",
+        "data": {
+            "type": "scatterpolargl",
+            "r": [
+                2,
+                3,
+                4,
+                5,
+                2
+            ],
+            "theta": [
+                0,
+                72,
+                144,
+                216,
+                288
+            ],
+            "mode": "markers+lines",
+            "marker": {
+                "size": 10,
+                "color": "blue"
+            }
+        },
+        "layout": {
+            "title": {
+                "text": "스캐터폴라GL 차트 예제"
+            }
+        }
+    },
+    {
+        "type": "scattersmith",
+        "data": {
+            "type": "scattersmith",
+            "real": [
+                0,
+                0.5,
+                1,
+                0.5
+            ],
+            "imag": [
+                0,
+                0.5,
+                0,
+                -0.5
+            ],
+            "mode": "markers+lines",
+            "marker": {
+                "size": 10,
+                "color": "blue"
+            }
+        },
+        "layout": {
+            "title": {
+                "text": "스캐터스미스 차트 예제"
+            }
+        }
+    },
+    {
+        "type": "scatterternary",
+        "data": {
+            "type": "scatterternary",
+            "a": [
+                0.2,
+                0.6,
+                0.3
+            ],
+            "b": [
+                0.6,
+                0.3,
+                0.2
+            ],
+            "c": [
+                0.2,
+                0.1,
+                0.5
+            ],
+            "mode": "markers",
+            "marker": {
+                "size": 12,
+                "color": "red"
+            }
+        },
+        "layout": {
+            "title": {
+                "text": "삼각도 산점도 예제"
+            }
+        }
+    },
+    {
+        "type": "splom",
+        "data": {
+            "type": "splom",
+            "dimensions": [
+                {
+                    "label": "A",
+                    "values": [
+                        1,
+                        2,
+                        3,
+                        4,
+                        5
+                    ]
+                },
+                {
+                    "label": "B",
+                    "values": [
+                        5,
+                        4,
+                        3,
+                        2,
+                        1
+                    ]
+                },
+                {
+                    "label": "C",
+                    "values": [
+                        3,
+                        2,
+                        5,
+                        1,
+                        4
+                    ]
+                },
+                {
+                    "label": "D",
+                    "values": [
+                        2,
+                        1,
+                        4,
+                        5,
+                        3
+                    ]
+                }
+            ],
+            "marker": {
+                "size": 8,
+                "color": "blue"
+            }
+        },
+        "layout": {
+            "title": {
+                "text": "산점도 행렬 예제"
+            }
+        }
+    },
+    {
+        "type": "streamtube",
+        "data": {
+            "type": "streamtube",
+            "x": [
+                0,
+                0,
+                0,
+                0,
+                1,
+                1,
+                1,
+                1
+            ],
+            "y": [
+                0,
+                0,
+                1,
+                1,
+                0,
+                0,
+                1,
+                1
+            ],
+            "z": [
+                0,
+                1,
+                0,
+                1,
+                0,
+                1,
+                0,
+                1
+            ],
+            "u": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "v": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "w": [
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "colorscale": "Viridis"
+        },
+        "layout": {
+            "title": {
+                "text": "스트림튜브 차트 예제"
+            }
+        }
+    },
+    {
+        "type": "sunburst",
+        "data": {
+            "type": "sunburst",
+            "ids": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G",
+                "H",
+                "I"
+            ],
+            "labels": [
+                "Root",
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G",
+                "H"
+            ],
+            "parents": [
+                "",
+                "Root",
+                "Root",
+                "Root",
+                "A",
+                "A",
+                "C",
+                "C",
+                "C"
+            ],
+            "values": [
+                10,
+                14,
+                12,
+                10,
+                2,
+                6,
+                6,
+                1,
+                4
+            ]
+        },
+        "layout": {
+            "title": {
+                "text": "선버스트 차트 예제"
+            }
+        }
+    },
+    {
+        "type": "surface",
+        "data": {
+            "type": "surface",
+            "z": [
+                [
+                    1,
+                    2,
+                    3,
+                    4
+                ],
+                [
+                    5,
+                    6,
+                    7,
+                    8
+                ],
+                [
+                    9,
+                    10,
+                    11,
+                    12
+                ],
+                [
+                    13,
+                    14,
+                    15,
+                    16
+                ]
+            ],
+            "colorscale": "Viridis"
+        },
+        "layout": {
+            "title": {
+                "text": "표면 차트 예제"
+            }
+        }
+    },
+    {
+        "type": "table",
+        "data": {
+            "type": "table",
+            "header": {
+                "values": [
+                    "이름",
+                    "나이",
+                    "직업"
+                ],
+                "align": "center",
+                "fill": {
+                    "color": "grey"
+                },
+                "font": {
+                    "color": "white"
+                }
+            },
+            "cells": {
+                "values": [
+                    [
+                        "홍길동",
+                        "김철수",
+                        "이영희"
+                    ],
+                    [
+                        30,
+                        25,
+                        28
+                    ],
+                    [
+                        "개발자",
+                        "디자이너",
+                        "마케터"
+                    ]
+                ],
+                "align": "center"
+            }
+        },
+        "layout": {
+            "title": {
+                "text": "테이블 예제"
+            }
+        }
+    },
+    {
+        "type": "treemap",
+        "data": {
+            "type": "treemap",
+            "ids": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G",
+                "H",
+                "I"
+            ],
+            "labels": [
+                "Root",
+                "A",
+                "B",
+                "C",
+                "D",
+                "E",
+                "F",
+                "G",
+                "H"
+            ],
+            "parents": [
+                "",
+                "Root",
+                "Root",
+                "Root",
+                "A",
+                "A",
+                "C",
+                "C",
+                "C"
+            ],
+            "values": [
+                10,
+                14,
+                12,
+                10,
+                2,
+                6,
+                6,
+                1,
+                4
+            ]
+        },
+        "layout": {
+            "title": {
+                "text": "트리맵 예제"
+            }
+        }
+    },
+    {
+        "type": "violin",
+        "data": {
+            "type": "violin",
+            "y": [
+                1,
+                2,
+                2,
+                3,
+                3,
+                3,
+                4,
+                4,
+                4,
+                4,
+                5,
+                5,
+                5,
+                5,
+                5
+            ],
+            "box": {
+                "visible": true
+            },
+            "points": "all"
+        },
+        "layout": {
+            "title": {
+                "text": "바이올린 플롯 예제"
+            }
+        }
+    },
+    {
+        "type": "volume",
+        "data": {
+            "type": "volume",
+            "x": [
+                0,
+                0,
+                0,
+                0,
+                1,
+                1,
+                1,
+                1
+            ],
+            "y": [
+                0,
+                0,
+                1,
+                1,
+                0,
+                0,
+                1,
+                1
+            ],
+            "z": [
+                0,
+                1,
+                0,
+                1,
+                0,
+                1,
+                0,
+                1
+            ],
+            "value": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8
+            ],
+            "colorscale": "Viridis"
+        },
+        "layout": {
+            "title": {
+                "text": "볼륨 차트 예제"
+            }
+        }
+    },
+    {
+        "type": "waterfall",
+        "data": {
+            "type": "waterfall",
+            "x": [
+                "초기",
+                "수입",
+                "비용1",
+                "비용2",
+                "세금",
+                "최종"
+            ],
+            "measure": [
+                "absolute",
+                "relative",
+                "relative",
+                "relative",
+                "relative",
+                "total"
+            ],
+            "y": [
+                100,
+                50,
+                -20,
+                -30,
+                -10,
+                0
+            ]
+        },
+        "layout": {
+            "title": {
+                "text": "워터폴 차트 예제"
+            }
+        }
+    }
+]
